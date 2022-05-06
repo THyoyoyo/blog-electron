@@ -15,14 +15,14 @@ npm run serve
 npm run build
 ```
 
- 
+### electron 构建
 ```
- npm run electron:serve
+npm run electron:serve
 ```
 
  
 ```
- npm run electron:build
+npm run electron:build
 ```
 
 
