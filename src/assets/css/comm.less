@@ -1,0 +1,59 @@
+/* 设置滚动条的样式 */
+div::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* 滚动槽 */
+div::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.3);
+    border-radius     : 10px;
+}
+
+/* 滚动条滑块 */
+div::-webkit-scrollbar-thumb {
+    border-radius     : 10px;
+    background        : rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.5);
+}
+
+/* 导航栏 顶部 */
+.top-padding {
+    box-sizing : border-box;
+    padding-top: 80px;
+}
+
+
+// 背景插件
+#particles-js {
+    position: fixed;
+    height  : 100%;
+    left    : 0;
+    top     : 0;
+}
+
+// 阿里字体
+@font-face {
+    font-family : 'webfont';
+    font-display: swap;
+    src         : url('//at.alicdn.com/t/webfont_veti2i7y63h.eot');
+    /* IE9*/
+    src         : url('//at.alicdn.com/t/webfont_veti2i7y63h.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('//at.alicdn.com/t/webfont_veti2i7y63h.woff2') format('woff2'),
+        url('//at.alicdn.com/t/webfont_veti2i7y63h.woff') format('woff'),
+        /* chrome、firefox */
+        url('//at.alicdn.com/t/webfont_veti2i7y63h.ttf') format('truetype'),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url('//at.alicdn.com/t/webfont_veti2i7y63h.svg#杨任东竹石体-Bold') format('svg');
+    /* iOS 4.1- */
+}
+
+.web-font {
+    font-family              : "webfont" !important;
+    font-size                : 16px;
+    font-style               : normal;
+    -webkit-font-smoothing   : antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing  : grayscale;
+}
